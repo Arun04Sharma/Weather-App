@@ -1,0 +1,62 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.pro
+{
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    width: 100%;
+    max-width: 360px;
+    border-radius: 1cm;
+    box-shadow: -10px -10px 12px #fc8947,10px 10px 12px #085cda;
+}
+
+input[type="search"] {
+    border-radius: 24px;
+    padding: 8px;
+    font-size: 20px;
+    margin: 0.5em;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    width: calc(100%-70px);
+}
+button {
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    padding: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* button:hover{
+
+} */
+
+
+.temp{
+    font-size: 1.2cm;
+}
+
+.weather.loading{
+    visibility: hidden;
+    max-height: 20px; 
+}
+
+
+.weather.loading:after{
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+}
+
+
+
